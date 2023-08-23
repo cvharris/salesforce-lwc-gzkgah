@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "lwc-playground",
+  "version": "2.20.0",
+  "description": "Playground project to experiment with LWC.",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@okta/okta-auth-js": "^7.2.0"
+  },
+  "devDependencies": {
+    "@lwc/rollup-plugin": "2.20.0",
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "lwc": "2.20.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-serve": "^2.0.0"
+  }
+}
